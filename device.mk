@@ -6,3 +6,6 @@
 #
 
 LOCAL_PATH := device/samsung/a06
+
+# Copy the files
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a06/recovery/root,recovery/root)

@@ -16,7 +16,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/samsung/a06/device.mk)
 
 PRODUCT_DEVICE := a06
-PRODUCT_NAME := omni_a06
+PRODUCT_NAME := twrp_a06
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A065F
 PRODUCT_MANUFACTURER := samsung
