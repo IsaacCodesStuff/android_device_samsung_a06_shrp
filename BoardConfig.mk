@@ -7,9 +7,6 @@
 
 DEVICE_PATH := device/samsung/a06
 
-# Common
-include device/samsung/mt6768-common/BoardConfigCommon.mk
-
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
