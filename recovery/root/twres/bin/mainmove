@@ -1,3 +1,0 @@
-#!/bin/bash
-twrp set backmenu 1
-exit
