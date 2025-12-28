@@ -150,8 +150,7 @@ TW_DEVICE_VERSION := Samsung Galaxy A06
 
 #Post Patches (IsaacCodesStuff)
 # TW_INCLUDE_CRYPTO_FBE := true
-TW_INCLUDE_CRYPTO := true
+# TW_INCLUDE_CRYPTO := true
 TW_NO_CPU_TEMP := true
 # TW_PREPARE_DATA_MEDIA_EARLY := true
-TWHAVE_SELINUX := true
 TW_NO_REBOOT_BOOTLOADER := true
