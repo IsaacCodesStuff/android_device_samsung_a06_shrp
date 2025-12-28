@@ -146,4 +146,13 @@ TW_MAX_BRIGHTNESS := 255
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Maintainer
-TW_DEVICE_VERSION := Galaxy_A06
+TW_DEVICE_VERSION := Samsung Galaxy A06
+
+#Post Patches (IsaacCodesStuff)
+TW_INCLUDE_CRYPTO_FBE := true
+TW_INCLUDE_CRYPTO := true
+TW_NO_CPU_TEMP := true
+TW_PREPARE_DATA_MEDIA_EARLY := true
+TW_CUSTOM_THEME := /recovery/root/twres/
+TWHAVE_SELINUX := true
+TW_NO_REBOOT_BOOTLOADER := true
