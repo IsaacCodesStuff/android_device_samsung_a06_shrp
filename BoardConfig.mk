@@ -36,23 +36,11 @@ SHRP_EXTERNAL := /external_sd
 # USB OTG path
 SHRP_OTG := /usb_otg
 
-# Flashlight
-SHRP_FLASH := 1
-
 # For notch devices
 SHRP_NOTCH := true
 
 # SHRP Dark mode
 SHRP_DARK := true
-
-# Custom led paths for flashlight
-SHRP_CUSTOM_FLASHLIGHT := true
-SHRP_FONP_1 := /sys/class/leds/led:torch_0/brightness
-SHRP_FONP_2 := /sys/class/leds/led:torch_1/brightness
-SHRP_FONP_3 := /sys/class/leds/led:switch/brightness
-
-# Max brightness of flashlight
-SHRP_FLASH_MAX_BRIGHTNESS := 200
 
 # Addon - Clear Fingerprint (remove fingerprint lock from system)
 SHRP_SKIP_DEFAULT_ADDON_3 := true
@@ -113,7 +101,7 @@ TARGET_USES_MKE2FS := true
 TARGET_USES_LOGD := true
 
 # A06 TWRP specific
-TW_MTP_DEVICE := "Galaxy A06"
+TW_MTP_DEVICE := "Galaxy A06 4G"
 TW_FRAMERATE := 60
 TW_Y_OFFSET := 50
 TW_H_OFFSET := -50
@@ -123,6 +111,7 @@ TW_MAX_BRIGHTNESS := 255
 TW_NO_REBOOT_BOOTLOADER := true
 TWHAVE_SELINUX := true
 TW_DEFAULT_BRIGHTNESS := 150
+TW_NO_CPU_TEMP := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -202,7 +191,7 @@ TARGET_USES_VULKAN := true
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Maintainer
-TW_DEVICE_VERSION := A06
+TW_DEVICE_VERSION := A06 4G
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
