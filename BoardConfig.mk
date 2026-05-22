@@ -1,3 +1,51 @@
+# SHRP FLAGS
+# Device codename
+SHRP_DEVICE_CODE := a06
+
+# Path of your SHRP device tree
+SHRP_PATH := device/samsung/$(SHRP_DEVICE_CODE)
+
+# Maintainer name
+SHRP_MAINTAINER := IsaacCodesStuff
+
+# Recovery Type
+SHRP_REC_TYPE := Normal
+
+# Device Type
+SHRP_DEVICE_TYPE := A/B
+
+# Use this flag only if your device is A/B or Virtual A/B.
+SHRP_AB := true
+
+# Internal storage path
+SHRP_INTERNAL := /sdcard
+
+# External SDcard path
+SHRP_EXTERNAL := /external_sd
+
+# USB OTG path
+SHRP_OTG := /usb_otg
+
+# For notch devices
+SHRP_NOTCH := true
+
+# SHRP Dark mode
+SHRP_DARK := true
+
+# Addon - Clear Fingerprint (remove fingerprint lock from system)
+SHRP_SKIP_DEFAULT_ADDON_3 := true
+INC_IN_REC_ADDON_3 := true
+
+# Addon - Force Encryption (remove force encryption from your device)
+SHRP_SKIP_DEFAULT_ADDON_4 := true
+INC_IN_REC_ADDON_4 := true
+
+# SHRP padding flag
+SHRP_STATUSBAR_RIGHT_PADDING := 50
+SHRP_STATUSBAR_LEFT_PADDING := 50
+
+# END OF SHRP FLAGS
+
 DEVICE_PATH := device/samsung/a06
 
 # Common
